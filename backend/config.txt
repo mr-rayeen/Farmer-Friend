@@ -1,0 +1,12 @@
+PORT=4444
+CORS_ORIGINS="http://localhost:3000"
+DB_PATH="mongodb://127.0.0.1:27017"
+DB_NAME="/farmer-friends"
+CLOUDINARY_CLOUDNAME='Your Cloud Name'
+CLOUDINARY_APISECRET="Your Cloud Secret"
+CLOUDINARY_APIKEY="Your Cloud API Key"
+REFRESH_TOKEN_KEY="Your Refresh Token Key"
+REFRESH_TOKEN_EXPIRY=1d
+ACCESS_TOKEN_KEY="Your Access Token Key"
+ACCESS_TOKEN_EXPIRY=30d
+GEMINI_API_KEY="Your Gemini API Key"
