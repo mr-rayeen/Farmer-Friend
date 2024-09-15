@@ -6,7 +6,7 @@ export const postGemini = ErrorWrapper(async(req, res, next) => {
     const {prompt} = req.body;
     
     try {
-        const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+        const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
         const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
         const result = await model.generateContent(prompt);
