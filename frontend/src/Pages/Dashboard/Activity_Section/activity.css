@@ -23,7 +23,7 @@
   flex-basis: 50%;
 }
 .activitySection .heading {
-  width: 100%;
+  width: 95%;
   justify-content: space-between;
 }
 .activitySection .heading h1 {
@@ -43,6 +43,7 @@
 .activitySection .secondContainer .singleCustomer {
   align-items: flex-start;
   justify-content: space-between;
+  width: 85%;
 }
 .activitySection .secondContainer .singleCustomer img {
   height: 40px;

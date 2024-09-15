@@ -31,10 +31,18 @@ const Sidebar = () => {
             </h3>
             <ul className="menuLists grid">
                 <li className="listItem">
-                    <a href="#" className="menuLink flex">
+                    <a href="/dashboard" className="menuLink flex">
                         <IoMdSpeedometer className="icon"/>
                         <span className="smallText">
                             Dashboard
+                        </span>
+                    </a>
+                </li>
+                <li className="listItem">
+                    <a href="/match-crop" className="menuLink flex">
+                        <MdDeliveryDining className="icon"/>
+                        <span className="smallText">
+                        Match Crop
                         </span>
                     </a>
                 </li>

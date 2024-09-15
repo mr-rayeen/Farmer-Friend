@@ -7,7 +7,7 @@
   --textColor: hsl(240,1%,48%);
   --bgColor: hsl(220,10%,94%);
   --greyText: rgb(190,190,190);
-  --inputColor: hsl:(330,12%,97%);
+  --inputColor: hsl(330,12%,97%);
   --biggestFontSize:2.5rem;
   --h1FontSize:1.5rem;
   --h2FontSize:1.25rem;
@@ -75,7 +75,6 @@
   color: var(--textColor);
 }
 .topSection .cardSection {
-  margin-top: 3rem;
   gap: 1rem;
 }
 .topSection .cardSection .rightCard {
@@ -110,6 +109,7 @@
   box-shadow: none;
   padding: 0.8rem 1.5rem;
   color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 2px solid transparent;
 }
 .topSection .cardSection .rightCard .buttons .transparent {
@@ -150,7 +150,7 @@
   content: "";
   position: absolute;
   height: 100%;
-  width: 75%;
+  width: 100%;
   background: var(--paleGreen);
   left: 0;
   bottom: 0;
@@ -188,10 +188,10 @@
   transition: 0.3s ease;
 }
 .topSection .cardSection .leftCard .main .imgDiv {
-  transform: translateY(-20px);
+  transform: translateY(-22px);
 }
 .topSection .cardSection .leftCard .main .imgDiv img {
-  width: 175px;
+  width: 175px !important;
 }
 .topSection .cardSection .leftCard .sideBarCard {
   display: none;
@@ -268,6 +268,9 @@
     margin-top: 2rem;
     align-self: flex-start;
     height: 10px !important;
+  }
+  .cardSection .leftCard::before {
+    width: 100% !important;
   }
   .cardSection .leftCard .sideBarCard {
     display: block !important;
